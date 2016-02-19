@@ -135,7 +135,7 @@ func SetTitle()
 		let l = l + 1 | call setline(l,'struct cmp{')
 		let l = l + 1 | call setline(l,'    bool operator()(Node a,Node b){')
 		let l = l + 1 | call setline(l,'        if(a.x==b.x) return a.y> b.y;')
-		let l = l + 1 | call setline(l,'        return a.x>b.x;'); 
+		let l = l + 1 | call setline(l,'        return a.x>b.x;')
 		let l = l + 1 | call setline(l,'	}')
 		let l = l + 1 | call setline(l,'};')
 		let l = l + 1 | call setline(l,'')
