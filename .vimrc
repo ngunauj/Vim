@@ -1,5 +1,5 @@
 syntax on  
-set cindent  
+"set cindent  
 set nu  
 set tabstop=4   
 set shiftwidth=4  
