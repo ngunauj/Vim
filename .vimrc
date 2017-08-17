@@ -19,5 +19,5 @@ map <F10> :NERDTreeToggle<CR>
 map <F5> :call Run()<CR>
 func! Run()  
     exec "w"
-    exec "!g++ % -o %< && ./%<"	
+    exec "!g++ -std=c++11 % -o %< && ./%<"	
 endfunc  
